@@ -1,0 +1,21 @@
+body {
+	font-family: sans-serif;
+}
+
+.sectionFirst {
+	padding-bottom: 10%;
+}
+
+.sectionSecond{
+	margin-top: 5%;
+}
+
+.splitThird {
+	width: 33.33%;
+	float: left;
+}
+
+.splitHalf {
+	width: 50%;
+	float: left;
+}
