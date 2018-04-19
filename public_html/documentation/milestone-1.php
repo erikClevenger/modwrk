@@ -32,7 +32,7 @@
 							<li>iPhone 8s - iOS 11.2.x</li>
 						</ul>
 					</li>
-					<li>Very limited on time. Works primarily with people more than technology.</li>
+					<li>Sierra is tasked finding ideal UX candidates to be vetted by other stakeholders. Currently her firm is in the beginning stages of developing an application for a local nonprofit organization.</li>
 				</ul>
 			</div>
 			<div class="splitHalf">
