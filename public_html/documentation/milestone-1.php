@@ -9,15 +9,15 @@
 		<section class="sectionFirst">
 			<div class="purpose splitThird">
 				<h2>Purpose</h2>
-				<p>This PWP should attract freelance clients.</p>
+				<p>This PWP should attract freelance clients. Ideal clients include development shops and other stakeholders such as Designers, Investors, Recruiters, Project managers, etc.</p>
 			</div>
 			<div class="audience splitThird">
 				<h2>Audience</h2>
-				<p>Effectively this site is designed for those who could be considered both peers and clients.</p>
+				<p>Effectively this site is designed for those who could be considered both peers and clients. For instance a Director of Design or Development for a dev shop needing to contract a UX designer. These clients would then effectively be both peers in that I would be making commits along side them as well as getting paid by them for my services.</p>
 			</div>
 			<div class="goal splitThird">
 				<h2>Goal</h2>
-				<p>To generate freelance interaction design and product strategy work.</p>
+				<p>To generate freelance interaction design and product strategy work. Ideally projects would be innovative, forward thinking, and community focused solutions for real issues as opposed to money grabs.</p>
 			</div>
 		</section>
 		<section class="sectionSecond">
