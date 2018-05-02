@@ -22,12 +22,18 @@
 		<h2>Portfolio</h2>
 		<p>The next section would be my portfolio examples. This is the section where I show what I believe is my
 			stronger work. </p>
-		<div>
+		<div class="currentProjects">
 			<h3>Current Projects</h3>
 			<p>As my design and creative interests continue to merge together I want to include a sub-section of my
 				portfolio where I keep information about my current projects. This is where I want to include a more
 				ongoing and frequently updated portion of my site as opposed to the more static portions of the website.</p>
 			<p>Going forward this is where I plan on having GitHub and headless wordpress integrations live.</p>
+		</div>
+		<div class="methodologies">
+			<h3>CSS Methodologies</h3>
+			<p>In the interest of having readily available information I'm interested in collating a resource of
+				various CSS Methodologies and potentially Styles Guides. This section is inspired by The Gang of Four
+				design patterns book as I have been unable to find a similar resource for CSS.</p>
 		</div>
 	</section>
 	<section>
