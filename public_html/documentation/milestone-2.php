@@ -40,5 +40,14 @@
 		<h2>Contact</h2>
 		<p>The final section will feature the required contact form.</p>
 	</section>
+	<section class="wireframes">
+		<div class="mobile">
+			<img src="images/mb-portfolio.png" alt="">
+		</div>
+		<div class="desktop">
+			
+		</div>
+		
+	</section>
 	</body>
 </html>
