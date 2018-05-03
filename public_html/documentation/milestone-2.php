@@ -3,11 +3,16 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Milestone 2</title>
+		<link rel="stylesheet" href="../documentation/style.css">
 	</head>
 	<body>
 	<section>
 		<h2>Content Strategy</h2>
-		<p>My site will employ a single page layout split in to 3 sections.</p>
+		<p>My site will employ a single page layout split in to 3 sections. I want focus on giving the impression of a
+			horizontal layout but utilizing an over-sized background image combined with ajax calls and potentially
+			some <em>tasteful</em> parallax scrolling.</p>
+		<p>Mobile will feature a google material design inspired floating button that will feature a slightly
+			different modal function of "stretching" along the bottom of the viewport when activated.</p>
 	</section>
 	<section>
 		<h2>Welcome &amp; About</h2>
@@ -42,6 +47,7 @@
 	</section>
 	<section class="wireframes">
 		<div class="mobile">
+			<h2>Mobile Wireframes</h2>
 			<img class="mobileImg" src="../images/mb-welcomeAbout.png" alt="mobile splash screen wireframe">
 			<img class="mobileImg" src="../images/mb-contact.png" alt="mobile contact wireframe ">
 			<img class="mobileImg" src="../images/mb-portfolio.png" alt="mobile portfolio wireframe">
@@ -49,6 +55,7 @@
 			<img class="mobileImg" src="../images/mb-modalOut.png" alt="mobile modal out wireframe">
 		</div>
 		<div class="desktop">
+			<h2>Desktop Wireframes</h2>
 			<img class="desktopImg" src="../images/dsk-home.png" alt=" desktop splash wireframe">
 			<img class="desktopImg" src="../images/dsk-contact.png" alt=" desktop contact wireframe">
 			<img class="desktopImg" src="../images/dsk-portfolio.png" alt=" desktop portfolio wireframe">

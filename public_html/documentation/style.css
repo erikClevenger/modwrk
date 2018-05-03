@@ -19,3 +19,18 @@ body {
 	width: 50%;
 	float: left;
 }
+
+img.mobileImg {
+	padding: 0 2em;
+	width: 15%;
+	display: inline-block;
+
+}
+
+img.desktopImg {
+	width: 40%;
+	padding: 2em;
+	display: inline-block;
+	border: 2px solid black;
+	margin: auto;
+}
