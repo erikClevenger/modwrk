@@ -42,10 +42,17 @@
 	</section>
 	<section class="wireframes">
 		<div class="mobile">
-			<img src="images/mb-portfolio.png" alt="">
+			<img class="mobile" src="../images/mb-welcomeAbout.png.png" alt="mobile splash screen wireframe">
+			<img class="mobile" src="../images/mb-contact.png.png" alt="mobile contact wireframe ">
+			<img class="mobile" src="../images/mb-portfolio.png.png" alt="mobile portfolio wireframe">
+			<img class="mobile" src="../images/mb-portfolioItem.png.png" alt="mobile portfolio item wireframe">
+			<img class="mobile" src="../images/mb-modalOut.png" alt="mobile modal out wireframe">
 		</div>
 		<div class="desktop">
-			
+			<img class="desktop" src="../images/dsk-home.png" alt=" desktop splash wireframe">
+			<img class="desktop" src="../images/dsk-contact.png.png" alt=" desktop contact wireframe">
+			<img class="desktop" src="../images/dsk-portfolio.png.png" alt=" desktop portfolio wireframe">
+			<img class="desktop" src="../images/dsk-portfolioItem.png.png" alt=" desktop portfolio-item wireframe">
 		</div>
 		
 	</section>
