@@ -37,9 +37,13 @@ If you would like to integrate some interactive gallery functionality to your Po
 
 For simple parallax effects, you may want to try [Rellax.js](https://dixonandmoe.com/rellax/). It's worked well for me and other students in the past and it's easy to integrate. You may want to consider only enabling parallax effects on larger screens/laptop widths as it can often be poorly handled by mobile browsers due to the differences with how the onscroll event is handled on some mobile devices.
 
+Last but not least, [FontAwesome](https://fontawesome.com/) is a good quality free library for including iconography.
+
 You make want to read ahead regarding the contact form integration - and that documentation is here: https://bootcamp-coders.cnm.edu/class-materials/jquery-validated-captcha-form/
 
 Your Milestone 2a passes at [Tier IV](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). You are now clear to begin development on your PWP. Looking forward to seeing your project come together.
+
+**We'll be building PWP in a file named index.php inside of /public_html**. Please note that no publicly-accessible site files should live outside of the /public_html directory. It would be best to move your existing `/images` directory inside `/documentation`, isolating these from your active project. Remember use an organized and standards-compliant directory structure to house all images, JavaScript, CSS, etc. We are done with the /documentation directory for now!
 
 #### Edits &amp; Suggestions
 - Add `/vendor` to your .gitignore
