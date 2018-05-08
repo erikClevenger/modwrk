@@ -1,9 +1,9 @@
-<!DOCTYPE html PUBLIC>
+<!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
 		<title>Milestone 2</title>
-		<link rel="stylesheet" href="../documentation/style.css">
+		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
 	<section>
