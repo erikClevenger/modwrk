@@ -48,18 +48,18 @@
 	<section class="wireframes">
 		<div class="mobile">
 			<h2>Mobile Wireframes</h2>
-			<img class="mobileImg" src="../images/mb-welcomeAbout.png" alt="mobile splash screen wireframe">
-			<img class="mobileImg" src="../images/mb-contact.png" alt="mobile contact wireframe ">
-			<img class="mobileImg" src="../images/mb-portfolio.png" alt="mobile portfolio wireframe">
-			<img class="mobileImg" src="../images/mb-portfolioItem.png" alt="mobile portfolio item wireframe">
-			<img class="mobileImg" src="../images/mb-modalOut.png" alt="mobile modal out wireframe">
+			<img class="mobileImg" src="images/mb-welcomeAbout.png" alt="mobile splash screen wireframe">
+			<img class="mobileImg" src="images/mb-contact.png" alt="mobile contact wireframe ">
+			<img class="mobileImg" src="images/mb-portfolio.png" alt="mobile portfolio wireframe">
+			<img class="mobileImg" src="images/mb-portfolioItem.png" alt="mobile portfolio item wireframe">
+			<img class="mobileImg" src="images/mb-modalOut.png" alt="mobile modal out wireframe">
 		</div>
 		<div class="desktop">
 			<h2>Desktop Wireframes</h2>
-			<img class="desktopImg" src="../images/dsk-home.png" alt=" desktop splash wireframe">
-			<img class="desktopImg" src="../images/dsk-contact.png" alt=" desktop contact wireframe">
-			<img class="desktopImg" src="../images/dsk-portfolio.png" alt=" desktop portfolio wireframe">
-			<img class="desktopImg" src="../images/dsk-portfolioItem.png" alt=" desktop portfolio-item wireframe">
+			<img class="desktopImg" src="images/dsk-home.png" alt=" desktop splash wireframe">
+			<img class="desktopImg" src="images/dsk-contact.png" alt=" desktop contact wireframe">
+			<img class="desktopImg" src="images/dsk-portfolio.png" alt=" desktop portfolio wireframe">
+			<img class="desktopImg" src="images/dsk-portfolioItem.png" alt=" desktop portfolio-item wireframe">
 		</div>
 		
 	</section>
