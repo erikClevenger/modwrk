@@ -9,6 +9,12 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 
+		<!-- Fullpage.js -->
+		<link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+		<script src="vendors/jquery.easings.min.js"></script>
+		<script type="text/javascript" src="vendors/scrolloverflow.min.js"></script>
+		<script type="text/javascript" src="jquery.fullPage.js"></script>
+
 
 		<title>Mod~Wrk</title>
 	</head>
@@ -23,10 +29,14 @@
 			</div>
 		</nav>
 		<div id="boltDiv"class="">
-			<img src="./imgs/mwLogo.svg" alt="Bolt Symbol for ModWrk">
+			<!--<img src="./imgs/mwLogo.svg" alt="Bolt Symbol for ModWrk">-->
 		</div>
-		<section id="slideHome"></section>
-		<section id="slideContact""></section>
-		<section id="slidePortfolio"></section>
+		<section id="slideHome">
+		</section>
+		<section id="slideContact"">
+		</section>
+		<section id="slidePortfolio">
+
+		</section>
 	</body>
 </html>

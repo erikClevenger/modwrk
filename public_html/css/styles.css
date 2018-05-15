@@ -46,13 +46,16 @@ svg {
 }
 
 #slideHome{
+	background-color: cadetblue;
 	height: 100vh;
 }
 #slideContact {
+	background-color: dimgrey;
 	height: 100vh;
 }
 
 #slidePortfolio {
+	background-color: moccasin;
 	height: 100vh;
 }
 
