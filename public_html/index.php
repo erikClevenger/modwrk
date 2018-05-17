@@ -19,24 +19,25 @@
 		<title>Mod~Wrk</title>
 	</head>
 	<body>
-		<nav class="navbar fixed-top">
-			<div id="invisiDiv" class="container">
-				<ul class="nav">
-					<li class="nav-item"><a href="#slideContact">Contact</a></li>
-					<li class="nav-item"><a href="#slideHome">Home</a></li>
-					<li class="nav-item"><a href="#slidePortfolio">Portfolio</a></li>
-				</ul>
+		<nav class="navbar navbar-expand-sm navbar-dark fixed-bottom mb-2">
+			<button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+					  aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"><img id="mwBoltMenu" src="./imgs/mwLogo.svg" alt="Open menu
+				button"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+				<div class="navbar-nav d-flex flex-row row-h1 justify-content-around">
+						<a href="#slideHome">Home</a>
+						<a href="#slideContact">Contact</a>
+						<a href="#slidePortfolio">Portfolio</a>
+				</div>
 			</div>
 		</nav>
-		<div id="boltDiv"class="">
-			<!--<img src="./imgs/mwLogo.svg" alt="Bolt Symbol for ModWrk">-->
-		</div>
 		<section id="slideHome">
 		</section>
-		<section id="slideContact"">
+		<section id="slideContact">
 		</section>
 		<section id="slidePortfolio">
-
 		</section>
-	</body>
+</body>
 </html>
