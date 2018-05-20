@@ -21,7 +21,19 @@
 	</head>
 	<body>
 		<div class="container">
-
+			<div class="collapse" id="navToggle">
+				<div class="d-flex flex-row mb-3 justify-content-center" aria-label="navigation">
+					<a href="#slideContact" role="button" class="btn btn-outline-secondary" >Contact</a>
+					<a href="#slideHome" role="button" class="btn btn-outline-secondary" >Home</a>
+					<a href="#slidePortfolio" role="button" class="btn btn-outline-secondary">Portfolio</a>
+				</div>
+			</div>
+			<nav class="navbar navbar-light bg-light">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navToggle"
+						  aria-controls="navToggle" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+			</nav>
 		</div>
 		<div id="mainContent" class="">
 			<div id="scrollable" class="">
