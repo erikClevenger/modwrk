@@ -8,26 +8,45 @@
 }
 
 body{
-	font-family:sans-serif;
 }
 
-section {
+#mainContent {
+	width: 100%;
+	height: 100%;
+	overflow-y: hidden;
+	/*overflow-x: hidden;*/
+}
+
+
+#scrollable {
+	width: 300vw;
 	height: 100vh;
+	padding: 0;
+	display: flex;
+
 }
 
 #slideHome{
-	background-color: rgba(45,91,140,1);
-	height: 100vh;
+	background-color: transparent;
 }
 #slideContact {
-	background-color: rgba(227,239,205,1);
-	height: 100vh;
+	background-color: transparent;
 }
 
 #slidePortfolio {
-	background-color: rgba(239,58,52,1);
+	background-color: transparent;
+}
+
+.slide {
+	width: 100vw;
 	height: 100vh;
 }
 
+/*.separator {
+	height: 100vh;
+	width: 90vw;
+	margin:auto;
+	background-color: rgba(255,255,255,.7);
+}*/
 
 
