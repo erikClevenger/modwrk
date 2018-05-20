@@ -21,15 +21,7 @@
 	</head>
 	<body>
 		<div class="container">
-			<nav class="navbar navbar-expand-sm navbar-dark fixed-bottom pb-2">
-				<div class="collapse navbar-collapse" id="navbarContent">
-					<div class="navbar-nav d-flex flex-row row-h1 justify-content-center">
-						<a class="slideBtn" href="#slideContact">Contact</a>
-						<a class="slideBtn" href="#slideHome">Home</a>
-						<a class="slideBtn" href="#slidePortfolio">Portfolio</a>
-					</div>
-				</div>
-			</nav>
+
 		</div>
 		<div id="mainContent" class="">
 			<div id="scrollable" class="">
