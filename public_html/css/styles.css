@@ -37,6 +37,14 @@ body{
 	background-color: transparent;
 }
 
+#modwrkLogo {
+	height: 2.5em;
+}
+
+#modwrkbanner {
+	position: absolute;
+}
+
 .slide {
 	width: 100vw;
 	height: 100vh;
@@ -46,13 +54,14 @@ body{
 	background-color: rgba(255,255,255, .7);
 }
 
+.homeSection {
+	height: 33vh;
+	background-color: transparent;
+}
+
 @media screen and (max-width: 993px) {
 	.smallHide {
 		display: none;
-	}
-	#modwrkLogo {
-		height: 3em;
-		width: 3em;
 	}
 }
 
