@@ -28,7 +28,7 @@
 					<a href="#slidePortfolio" role="button" class="btn btn-outline-secondary">Portfolio</a>
 				</div>
 			</div>
-			<nav class="navbar navbar-light bg-white">
+			<nav class="navbar navbar-light">
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#topNavToggle"
 						  aria-controls="topNavToggle" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
@@ -36,14 +36,14 @@
 			</nav>
 		</div>
 		<div class="container bigHide fixed-bottom">
-			<div class="collapse backWhite" id="btmNavToggle">
-				<div class="d-flex flex-row mb-3 justify-content-center" aria-label="navigation">
-					<a href="#slideContact" role="button" class="btn btn-outline-secondary" >Contact</a>
-					<a href="#slideHome" role="button" class="btn btn-outline-secondary" >Home</a>
-					<a href="#slidePortfolio" role="button" class="btn btn-outline-secondary">Portfolio</a>
+			<div class="collapse " id="btmNavToggle">
+				<div class="d-flex flex-row mb-3 justify-content-around" aria-label="navigation">
+					<a href="#slideContact" role="button" class="btn backWhite" >Contact</a>
+					<a href="#slideHome" role="button" class="btn backWhite" >Home</a>
+					<a href="#slidePortfolio" role="button" class="btn backWhite">Portfolio</a>
 				</div>
 			</div>
-			<nav class="navbar navbar-light bg-white">
+			<nav class="navbar navbar-light bg-white justify-content-center">
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#btmNavToggle"
 						  aria-controls="btmNavToggle" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
