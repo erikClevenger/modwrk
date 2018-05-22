@@ -21,13 +21,25 @@
 	</head>
 	<body>
 		<div class="container smallHide">
-			<nav class="navbar navbar-light justify-content-center">
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#topNavToggle"
-						  aria-controls="topNavToggle" aria-expanded="false" aria-label="Toggle navigation">
-					<svg id="modwrkLogo" data-name="modwrkLogo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160.72
+			<ul class="nav justify-content-center">
+				<li class="nav-item">
+					<a class="nav-link" href="#slideContact">Contact</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#slideHome">Home</a>
+				</li>
+				<li>
+					<svg id="modwrkLogo" data-name="modwrkLogo" xmlns="http://www.w3.org/2000/svg"
+						  viewBox="0 0 160.72
 					67"><defs><style>.cls-1{fill:#29323f;}</style></defs><title>mwLogo</title><path class="cls-1" d="M156.66,13.59a3.1,3.1,0,0,1,3.06,5.22l-49.84,46.7a5.6,5.6,0,0,1-6.26.93L55,42.87A17.66,17.66,0,0,0,42.08,42l-38,12A3.1,3.1,0,0,1,1,48.8L51.45,1.49A5.62,5.62,0,0,1,57.71.55l49.17,23.83a17.71,17.71,0,0,0,12.89.89Z"/></svg>
-				</button>
-			</nav>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#slidePortfolio">Portfolio</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link disabled" href="resume-ErikClevenger.pdf">Resume</a>
+				</li>
+			</ul>
 		</div>
 		<div class="container bigHide fixed-bottom">
 			<div class="collapse " id="btmNavToggle">
