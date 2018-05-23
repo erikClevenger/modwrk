@@ -9,13 +9,6 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 
-		<!-- Fullpage.js
-		<link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
-		<script src="vendors/jquery.easings.min.js"></script>
-		<script type="text/javascript" src="vendors/scrolloverflow.min.js"></script>
-		<script type="text/javascript" src="jquery.fullPage.js"></script>
-		-->
-
 
 		<title>Mod~Wrk</title>
 	</head>
@@ -57,8 +50,8 @@
 			</nav>
 		</div>
 		<div id="mainContent" class="">
-			<div id="scrollable" class="">
-				<section class="slide" id="slideContact">
+			<div id="dragend" class="">
+				<section class="dragend-page" id="slideContact">
 					<div class="container">
 						<div class="row mt-5 justify-content-center">
 							<h2 class="col-12 align-self-center text-center">Contact</h2>
@@ -80,7 +73,7 @@
 						</div>
 					</div>
 				</section>
-				<section class="slide" id="slideHome">
+				<section class="dragend-page" id="slideHome">
 					<div class="container">
 						<div class="row justify-content-center homeSection">
 							<div class="col-12 h-100">
@@ -102,7 +95,7 @@
 						</div>
 					</div>
 				</section>
-				<section class="slide" id="slidePortfolio">
+				<section class="dragend-page" id="slidePortfolio">
 					<div class="container">
 						<div class="row mt-5 justify-content-center">
 							<h2 class="col-12 text-center">Portfolio</h2>
