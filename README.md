@@ -49,3 +49,6 @@ Your Milestone 2a passes at [Tier IV](https://bootcamp-coders.cnm.edu/projects/p
 - Add `/vendor` to your .gitignore
 - Remove PUBLIC from your !DOCTYPE on line 1 - this is an error.
 - Just a petty observation - but the paths to your images and CSS file could be simplified and also written relative to the current directory - in other words... omitting `../documentation`.
+
+### Milestone 2b Feedback
+Really nice work - looking forward to seeing this come together. Milestone 2b passes at [Tier IV](https://bootcamp-coders.cnm.edu/projects/personal/rubric/)
