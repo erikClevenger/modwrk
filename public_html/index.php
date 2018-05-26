@@ -101,12 +101,12 @@
 			</section>
 			<section class="dragend-page" id="slidePortfolio">
 				<div class="container">
-					<div class="row mt-5 justify-content-center">
+					<div id ="portfolioHeadline" class="row mt-5 justify-content-center">
 						<h2 class="col-12 text-center">Portfolio</h2>
 						<p class="mb-4"> A small smattering of past work.</p>
 					</div>
 					<div id="verticalScroll" class="row justify-content-center">
-						<div class="text-light col-5 text-center">
+						<div class="text-light col-5 text-center mb-5">
 							<img class="card-img portfolioImg" src="https://picsum.photos/200?random" alt="placeholder
 							images from
 							Picsum">
@@ -114,7 +114,24 @@
 								<h4 id="portfolio-1" class=" portfolio-item portfolio">Portfolio Item 1</h4>
 							</div>
 						</div>
-						<div class="text-light col-5 text-center">
+						<div class="text-light col-5 text-center mb-5">
+							<img class="card-img portfolioImg" src="https://picsum.photos/200?random" alt="placeholder
+							images
+							from
+							Picsum">
+							<div class="card-img-overlay">
+								<h4 id="portfolio-2" class=" portfolio-item portfolio">Portfolio Item 2</h4>
+							</div>
+						</div>
+						<div class="text-light col-5 text-center mb-5">
+							<img class="card-img portfolioImg" src="https://picsum.photos/200?random" alt="placeholder
+							images from
+							Picsum">
+							<div class="card-img-overlay">
+								<h4 id="portfolio-1" class=" portfolio-item portfolio">Portfolio Item 1</h4>
+							</div>
+						</div>
+						<div class="text-light col-5 text-center mb-5">
 							<img class="card-img portfolioImg" src="https://picsum.photos/200?random" alt="placeholder
 							images
 							from
@@ -124,25 +141,6 @@
 							</div>
 						</div>
 
-<!--							<div class="card text-light col-4">
-							<img class="card-img" src="https://picsum.photos/200?random" alt="placeholder images from Picsum">
-							<div class="card-img-overlay">
-								<h4 id="portfolio-2" class=" portfolio-item portfolio">Portfolio Item 2</h4>
-							</div>
-						</div>
-						<div class="card text-light col-4">
-							<img class="card-img" src="https://picsum.photos/200?random" alt="placeholder images from Picsum">
-							<div class="card-img-overlay">
-								<h4 id="portfolio-3" class=" portfolio-item portfolio">Portfolio Item 3</h4>
-							</div>
-						</div>
-						<div class="card text-light col-4">
-							<img class="card-img" src="https://picsum.photos/200?random" alt="placeholder images from Picsum">
-							<div class="card-img-overlay">
-								<h4 id="portfolio-4" class=" portfolio-item portfolio">Portfolio Item 4</h4>
-							</div>
-						</div>
--->
 					</div>
 				</div>
 			</section>
