@@ -1,3 +1,11 @@
 $(document).ready(function() {
-	$("#dragend").dragend();
+	$("#dragend").dragend({
+		jumpToPage: 2
+		});
 });
+
+
+
+
+
+

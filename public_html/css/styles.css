@@ -11,6 +11,7 @@ body{
 }
 
 
+
 #dragend {
 	height: 80vh;
 	overflow-y: hidden;
@@ -19,6 +20,86 @@ body{
 #dragend .dragend-page {
 	cursor: pointer;
 	height: 80vh;
+}
+
+@-webkit-keyframes fadeInDown {
+	from {
+		opacity: 0;
+		-webkit-transform: translate3d(0, -100%, 0);
+		transform: translate3d(0, -100%, 0);
+	}
+
+	to {
+		opacity: 1;
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+@keyframes fadeInDown {
+	from {
+		opacity: 0;
+		-webkit-transform: translate3d(0, -100%, 0);
+		transform: translate3d(0, -100%, 0);
+	}
+
+	to {
+		opacity: 1;
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+.fadeInDown {
+	-webkit-animation-name: fadeInDown;
+	animation-name: fadeInDown;
+}
+@-webkit-keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+.fadeIn {
+	-webkit-animation-name: fadeIn;
+	animation-name: fadeIn;
+}
+
+
+
+#paraBG {
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+	position: absolute;
+	top: 0px;
+	z-index: -99;
+	background-color: ghostwhite;
+}
+
+#paraImg{
+	height: 150vh;
+	width: 200vw;
+	background-color: transparent;
+	background-image: url(../imgs/mwLogo.svg);
+	background-repeat: no-repeat;
+	background-position-x: -75vw;
+	background-position-y: 55vh;
+
 }
 
 #slideHome{
@@ -38,11 +119,12 @@ body{
 
 #modwrkbanner {
 	position: absolute;
+	margin-top: 7rem;
 }
 
 .dragend-page {
 	width: 100vw;
-	height: 100vh;
+	height:100vh;
 }
 
 .backWhite{
@@ -50,8 +132,14 @@ body{
 }
 
 .homeSection {
-	height: 33vh;
+	height: 50vh;
 	background-color: transparent;
+}
+
+.smallHide {
+	background-color: transparent;
+	margin-top: 2rem;
+	z-index:1;
 }
 
 @media screen and (max-width: 993px) {
@@ -67,11 +155,7 @@ body{
 }
 
 
-/*.separator {
-	height: 100vh;
-	width: 90vw;
-	margin:auto;
-	background-color: rgba(255,255,255,.7);
-}*/
+
+
 
 
