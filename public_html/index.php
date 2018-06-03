@@ -17,6 +17,20 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js" integrity="sha384-FzT3vTVGXqf7wRfy8k4BiyzvbNfeYjK+frTVqZeNDFl8woCbF0CYG6g2fMEFFo/i" crossorigin="anonymous"></script>
+
+		<script src='https://www.google.com/recaptcha/api.js?render=6LcU8VwUAAAAANXuhxDSzBd0Z2OnZfppR2YjSUAA'></script>
+
+		<!-- <script>
+			grecaptcha.ready(function() {
+				grecaptcha.execute('6LcU8VwUAAAAANXuhxDSzBd0Z2OnZfppR2YjSUAA', {action: 'action_name'})
+					.then(function(token) {
+					...
+					});
+			});
+		</script> -->
+
 
 		<!-- Dragend -->
 		<script src="js/dragend.min.js"></script>
