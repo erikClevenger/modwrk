@@ -87,7 +87,7 @@
 						<h2 class="col-12 align-self-center text-center">Contact</h2>
 						<p class="col-12 col-lg-6 offset-lg-1 mb-4">Interested in working with me?<br>Found a bug?<br>Don't like my
 							face?<br><strong>Let me know.</strong></p>
-						<form class="col-12 justify-content-center" id="contactForm">
+						<form class="col-12 justify-content-center" id="contactForm" action="php/mailer.php" method="post">
 							<div class="form-group col-lg-6 offset-lg-3">
 								<input type="text" class="form-control" id="nameInput" placeholder="Name">
 							</div>
