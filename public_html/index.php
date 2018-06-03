@@ -124,12 +124,8 @@
 					</div>
 					<div id="verticalScroll" class="row justify-content-center">
 						<div class="text-light col-5 text-center mb-5">
-							<img class="card-img portfolioImg" src="https://picsum.photos/200?random" alt="placeholder
-							images from
-							Picsum">
-							<div class="card-img-overlay">
-								<h4 id="portfolio-1" class=" portfolio-item portfolio">Portfolio Item 1</h4>
-							</div>
+							<a href="posts/portfolioKillerspin.html" id="ksAJAX"><img class="card-img portfolioImg" src="https://picsum.photos/200?random" alt="placeholder images from Picsum"/></a>
+							<h4 id="portfolio-1" class=" portfolio-item portfolio mt-5">Portfolio Item 1</h4>
 						</div>
 						<div class="text-light col-5 text-center mb-5">
 							<img class="card-img portfolioImg" src="https://picsum.photos/200?random" alt="placeholder
