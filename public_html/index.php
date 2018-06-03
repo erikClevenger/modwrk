@@ -22,14 +22,6 @@
 
 		<script src='https://www.google.com/recaptcha/api.js?render=6LcU8VwUAAAAANXuhxDSzBd0Z2OnZfppR2YjSUAA'></script>
 
-		<script>
-			grecaptcha.ready(function() {
-				grecaptcha.execute('6LcU8VwUAAAAANXuhxDSzBd0Z2OnZfppR2YjSUAA', {action: 'action_name'})
-					.then(function(token) {
-					...
-					});
-			});
-		</script>
 
 
 		<!-- Dragend -->
