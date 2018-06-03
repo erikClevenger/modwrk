@@ -9,10 +9,10 @@
  **/
 
 // require all composer dependencies
-require_once(dirname(__DIR__, 2) . "/vendor/autoload.php");
+require_once(dirname(__DIR__, 3) . "/vendor/autoload.php");
 
 // require mail-config.php
-require_once(dirname(__DIR__,2) ."mail-config.php");
+require_once(dirname(__DIR__,3) ."mail-config.php");
 
 // verify user's reCAPTCHA input
 $recaptcha = new \ReCaptcha\ReCaptcha($secret);
