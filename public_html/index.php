@@ -89,16 +89,17 @@
 							face?<br><strong>Let me know.</strong></p>
 						<form class="col-12 justify-content-center" id="contactForm" action="php/mailer.php" method="post">
 							<div class="form-group col-lg-6 offset-lg-3">
-								<input type="text" class="form-control" id="nameInput" placeholder="Name">
+								<input type="text" class="form-control" id="nameInput" name="nameInput" placeholder="Name">
 							</div>
 							<div class="form-group col-lg-6 offset-lg-3">
-								<input type="email" class="form-control" id="emailInput" placeholder="Email">
+								<input type="email" class="form-control" id="emailInput" name="emailInput" placeholder="Email">
 							</div>
 							<div class="form-group col-lg-6 offset-lg-3">
-								<textarea class="form-control" id="messageTextArea" rows="6"
+								<textarea class="form-control" id="messageTextArea" name="messageTextArea" rows="6"
 											 placeholder="Message"></textarea>
 							</div>
 						</form>
+						<div id="output-area"></div>
 						<button class="btn btn-outline-secondary col-6 col-lg-3 mt-4">Submit</button>
 					</div>
 				</div>
