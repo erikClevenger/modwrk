@@ -20,7 +20,9 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js" integrity="sha384-FzT3vTVGXqf7wRfy8k4BiyzvbNfeYjK+frTVqZeNDFl8woCbF0CYG6g2fMEFFo/i" crossorigin="anonymous"></script>
 
-		<script src='https://www.google.com/recaptcha/api.js?render=6LcU8VwUAAAAANXuhxDSzBd0Z2OnZfppR2YjSUAA'></script>
+		<script src="js/form-validate.js"></script>
+
+		<script src='https://www.google.com/recaptcha/api.js'></script>
 
 
 
