@@ -13,13 +13,13 @@
 		<div class="container smallHide animated fadeInDown">
 			<ul id="menu" class="nav justify-content-center">
 				<li class="nav-item">
-					<a id="contactLink" class="nav-link" href="#">Contact</a>
+					<a class="nav-link" href="#" data-page="#contact">Contact</a>
 				</li>
 				<li class="nav-item">
-					<a id="homeLink" class="nav-link" href="#">Home</a>
+					<a class="nav-link" href="#" data-page="#home">Home</a>
 				</li>
 				<li class="nav-item">
-					<a id="portfolioLink" class="nav-link" href="#">Portfolio</a>
+					<a class="nav-link" href="#" data-page="#portfolio">Portfolio</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="resume-ErikClevenger.pdf">Resume</a>
@@ -42,7 +42,7 @@
 			</nav>
 		</div>
 		<div id="pages">
-			<section class="page" id="slideHome" data-page="home">
+			<section class="page " id="home" data-page="home">
 				<div class="container">
 					<div class="row justify-content-center homeSection">
 						<div id="heroImg" class="col-12 animated fadeIn">
@@ -52,7 +52,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="page hide" id="slideContact" data-page="contact">
+			<section class="page " id="contact" data-page="contact">
 				<div class="container">
 					<div class="row mt-5 justify-content-center">
 						<h2 class="col-12 align-self-center text-center">Contact</h2>
@@ -69,13 +69,18 @@
 								<textarea class="form-control" id="messageTextArea" name="messageTextArea" rows="6"
 											 placeholder="Message"></textarea>
 							</div>
+							<div class="g-recaptcha" data-sitekey="6LeMN10UAAAAAMigYYebRfF7A7YblTkUDPlIRAiY"></div>
+
+							<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
+							<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
+
 						</form>
 						<div id="output-area"></div>
-						<button class="btn btn-outline-secondary col-6 col-lg-3 mt-4">Submit</button>
+
 					</div>
 				</div>
 			</section>
-			<section class="page hide" id="slidePortfolio">
+			<section class="page " id="portfolio">
 				<div class="container">
 					<div id ="portfolioHeadline" class="row mt-5 justify-content-center">
 						<h2 class="col-12 text-center">Portfolio</h2>
