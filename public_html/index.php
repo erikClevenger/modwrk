@@ -1,62 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<?php
 
+		require_once ("head-utils.php");
 
-		<!-- Custom CSS -->
-		<link rel="stylesheet" href="./css/styles.css">
-
-		<!-- Animate CSS -->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-
-		<!-- Bootstrap, Jquery, Popper -->
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-
-		<!-- jQuery Form, Additional Methods, Validate -->
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
-
-		<script src="js/form-validate.js"></script>
-
-
-		<!-- reCAPTCHA -->
-		<script src='https://www.google.com/recaptcha/api.js'></script>
-
-
-
-		<!-- Dragend -->
-		<script src="js/dragend.min.js"></script>
-		<script src="js/scripts.js"></script>
-
-
-		<title>Mod~Wrk</title>
-	</head>
+	?>
 	<body>
 
 		<div id="paraBG" class="">
 			<div id="paraImg" class="animated fadeInUp"></div>
 		</div>
 		<div class="container smallHide animated fadeInDown">
-			<ul class="nav justify-content-center">
+			<ul id="menu" class="nav justify-content-center">
 				<li class="nav-item">
-					<a id="contactLink" class="nav-link" href="#slideContact">Contact</a>
+					<a id="contactLink" class="nav-link" href="#">Contact</a>
 				</li>
 				<li class="nav-item">
-					<a id="homeLink" class="nav-link" href="#slideHome">Home</a>
+					<a id="homeLink" class="nav-link" href="#">Home</a>
 				</li>
-				<li>
-					<svg id="modwrkLogo" data-name="modwrkLogo" xmlns="http://www.w3.org/2000/svg"
-						  viewBox="0 0 160.72
-					67"><defs><style>.cls-1{fill:#29323f;}</style></defs><title>mwLogo</title><path class="cls-1" d="M156.66,13.59a3.1,3.1,0,0,1,3.06,5.22l-49.84,46.7a5.6,5.6,0,0,1-6.26.93L55,42.87A17.66,17.66,0,0,0,42.08,42l-38,12A3.1,3.1,0,0,1,1,48.8L51.45,1.49A5.62,5.62,0,0,1,57.71.55l49.17,23.83a17.71,17.71,0,0,0,12.89.89Z"/></svg>
-				</li>
-				<li id="portfolioLink" class="nav-item">
-					<a class="nav-link" href="#slidePortfolio">Portfolio</a>
+				<li class="nav-item">
+					<a id="portfolioLink" class="nav-link" href="#">Portfolio</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="resume-ErikClevenger.pdf">Resume</a>
@@ -78,8 +41,18 @@
 				</button>
 			</nav>
 		</div>
-		<div id="dragend" class="">
-			<section class="dragend-page" id="slideContact">
+		<div id="pages">
+			<section class="page" id="slideHome" data-page="home">
+				<div class="container">
+					<div class="row justify-content-center homeSection">
+						<div id="heroImg" class="col-12 animated fadeIn">
+							<svg id="modwrkbanner" data-name="modwrkBanner"  viewBox="0 0 532.5 68.5"><defs><style>.cls-1{fill:#29323f;
+										}</style></defs><title>modwrkBanner</title><path class="cls-1" d="M194,12c-6.49-6.9-16.28-8.67-25.27-8.67H142.66V28a29.08,29.08,0,0,0-8.43-17.41c-4.25-4.15-11.71-9-24.54-9s-20.3,4.86-24.55,9a29.32,29.32,0,0,0-8.51,18V3.31H55.78L39.89,48.22h-.4L23.61,3.31H2.75V65.19H17.51V24.35L17,19.13h.56L34.36,65.19H45L61.87,19.13h.56l-.56,5.22V65.19H76.63V40a29.32,29.32,0,0,0,8.51,18c4.25,4.15,11.71,9,24.55,9s20.29-4.86,24.54-9a29.08,29.08,0,0,0,8.43-17.41V65.19h24.71c7.7,0,19.09-.36,26.63-8.49C197.45,53,201.46,46,201.46,34,201.46,28.06,200.5,18.87,194,12ZM121.88,49.81c-3.85,4.15-8.42,4.77-12.19,4.77s-8.34-.62-12.2-4.77c-4.65-5-5.13-12-5.13-15.56s.48-10.52,5.13-15.56c3.86-4.15,8.43-4.77,12.2-4.77s8.34.62,12.19,4.77c4.65,5,5.14,12,5.14,15.56S126.53,44.77,121.88,49.81Zm58.73-1.24c-4.42,4.07-10.83,4.24-14.68,4.24h-8.51V15.69h9.39c4.09,0,9.87.17,14.12,4.24,2.32,2.21,5,6.72,5,14.23C185.9,41.32,183.41,46,180.61,48.57Z"/><path class="cls-1" d="M499.4,29.49,528.09,3.87H508.15L480.69,29.49V3.87H464.6V63.81a17.55,17.55,0,0,1-1.84-7.47l-.44-6.91c-.17-3.15-.17-6.29-3.06-9.27a12.92,12.92,0,0,0-7.17-3.67v-.35A17.49,17.49,0,0,0,460,31.86c3.06-3,4-6.74,4-10.85,0-3.32-.61-8-4.19-11.63C454.71,4.31,446,3.87,439.93,3.87H392.18L381.86,49.26,367.69,3.87H352.83L338.57,49.26,328.17,3.87H311.38l18.36,61.22h16.79l13.73-44.95,13.56,45h16.79l13.12-43.74V65.09h16.09V42.61h15c2.8,0,6.12.7,7.87,2.19,1.49,1.22,2.71,3.67,2.89,7.43l.26,5.07c.18,3,.44,5.08,2.36,7.79h32.45V45.67l8-7.17L510,65.09,529.75,65Zm-54-.87c-2.28,2.27-5.77,2.45-8.49,2.45H419.82v-15H436.7c1.75,0,5.77.09,7.69,1.32a6.76,6.76,0,0,1,3,5.94A7.33,7.33,0,0,1,445.36,28.62Z"/></svg>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page hide" id="slideContact" data-page="contact">
 				<div class="container">
 					<div class="row mt-5 justify-content-center">
 						<h2 class="col-12 align-self-center text-center">Contact</h2>
@@ -102,17 +75,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="dragend-page" id="slideHome">
-				<div class="container">
-					<div class="row justify-content-center homeSection">
-						<div id="heroImg" class="col-12 animated fadeIn">
-							<svg id="modwrkbanner" data-name="modwrkBanner"  viewBox="0 0 532.5 68.5"><defs><style>.cls-1{fill:#29323f;
-										}</style></defs><title>modwrkBanner</title><path class="cls-1" d="M194,12c-6.49-6.9-16.28-8.67-25.27-8.67H142.66V28a29.08,29.08,0,0,0-8.43-17.41c-4.25-4.15-11.71-9-24.54-9s-20.3,4.86-24.55,9a29.32,29.32,0,0,0-8.51,18V3.31H55.78L39.89,48.22h-.4L23.61,3.31H2.75V65.19H17.51V24.35L17,19.13h.56L34.36,65.19H45L61.87,19.13h.56l-.56,5.22V65.19H76.63V40a29.32,29.32,0,0,0,8.51,18c4.25,4.15,11.71,9,24.55,9s20.29-4.86,24.54-9a29.08,29.08,0,0,0,8.43-17.41V65.19h24.71c7.7,0,19.09-.36,26.63-8.49C197.45,53,201.46,46,201.46,34,201.46,28.06,200.5,18.87,194,12ZM121.88,49.81c-3.85,4.15-8.42,4.77-12.19,4.77s-8.34-.62-12.2-4.77c-4.65-5-5.13-12-5.13-15.56s.48-10.52,5.13-15.56c3.86-4.15,8.43-4.77,12.2-4.77s8.34.62,12.19,4.77c4.65,5,5.14,12,5.14,15.56S126.53,44.77,121.88,49.81Zm58.73-1.24c-4.42,4.07-10.83,4.24-14.68,4.24h-8.51V15.69h9.39c4.09,0,9.87.17,14.12,4.24,2.32,2.21,5,6.72,5,14.23C185.9,41.32,183.41,46,180.61,48.57Z"/><path class="cls-1" d="M499.4,29.49,528.09,3.87H508.15L480.69,29.49V3.87H464.6V63.81a17.55,17.55,0,0,1-1.84-7.47l-.44-6.91c-.17-3.15-.17-6.29-3.06-9.27a12.92,12.92,0,0,0-7.17-3.67v-.35A17.49,17.49,0,0,0,460,31.86c3.06-3,4-6.74,4-10.85,0-3.32-.61-8-4.19-11.63C454.71,4.31,446,3.87,439.93,3.87H392.18L381.86,49.26,367.69,3.87H352.83L338.57,49.26,328.17,3.87H311.38l18.36,61.22h16.79l13.73-44.95,13.56,45h16.79l13.12-43.74V65.09h16.09V42.61h15c2.8,0,6.12.7,7.87,2.19,1.49,1.22,2.71,3.67,2.89,7.43l.26,5.07c.18,3,.44,5.08,2.36,7.79h32.45V45.67l8-7.17L510,65.09,529.75,65Zm-54-.87c-2.28,2.27-5.77,2.45-8.49,2.45H419.82v-15H436.7c1.75,0,5.77.09,7.69,1.32a6.76,6.76,0,0,1,3,5.94A7.33,7.33,0,0,1,445.36,28.62Z"/></svg>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="dragend-page" id="slidePortfolio">
+			<section class="page hide" id="slidePortfolio">
 				<div class="container">
 					<div id ="portfolioHeadline" class="row mt-5 justify-content-center">
 						<h2 class="col-12 text-center">Portfolio</h2>
@@ -120,9 +83,8 @@
 					</div>
 					<div id="verticalScroll" class="row justify-content-center">
 						<div class="text-light col-5 text-center mb-5">
-							<a href="posts/portfolioKillerspin.html" rel="modal:open" id="ksAJAX"><img class="card-img
-							portfolioImg"
-																										  src="https://picsum.photos/200?random" alt="placeholder images from Picsum"/></a>
+							<a data-toggle="modal" data-target="#ksModal"><img class="card-img-portfolioImg" src="https://picsum.photos/200?random"
+													alt="placeholder images from Picsum"/></a>
 							<h4 id="portfolio-1" class=" portfolio-item portfolio mt-5">Portfolio Item 1</h4>
 						</div>
 						<div class="text-light col-5 text-center mb-5">
@@ -151,8 +113,29 @@
 								<h4 id="portfolio-2" class=" portfolio-item portfolio">Portfolio Item 2</h4>
 							</div>
 						</div>
+						<div class="modal fade align-self-center" id="ksModal" tabindex="-1" role="dialog"
+							  aria-labelledby="Killerspin"
+							  aria-hidden="true">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+									<div class="modal-body">
+										...
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+									</div>
+								</div>
+							</div>
+						</div>
 
 					</div>
+
 				</div>
 			</section>
 		</div>
