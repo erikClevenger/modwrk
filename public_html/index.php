@@ -2,7 +2,7 @@
 <html lang="en">
 	<?php
 
-		require_once ("head-utils.php");
+		require_once ("php/head-utils.php");
 
 	?>
 	<body>
