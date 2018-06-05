@@ -18,9 +18,8 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-
 		<!-- Custom CSS -->
-		<link rel="stylesheet" href="./css/styles.css">
+		<link rel="stylesheet" href="<?php echo $PREFIX; ?>css/styles.css">
 
 		<!-- Animate CSS -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">

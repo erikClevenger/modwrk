@@ -2,7 +2,7 @@
 <div class="container smallHide animated fadeInDown">
 	<ul id="menu" class="nav justify-content-center">
 		<li class="nav-item">
-			<a class="nav-link" href="<?php echo $PREFIX; ?>">Home</a>
+			<a class="nav-link animsition-link" href="<?php echo $PREFIX; ?>">Home</a>
 		</li>
 		<li class="nav-item">
 			<a class="nav-link animsition-link" href="<?php echo $PREFIX; ?>contact/contact.php">Contact</a>
@@ -18,7 +18,7 @@
 <div class="container bigHide fixed-bottom">
 	<div class="collapse " id="btmNavToggle">
 		<div class="d-flex flex-row mb-3 justify-content-around" aria-label="navigation">
-			<a href="~eclevenger/modwrk/" role="button" class="btn backWhite" >Home</a>
+			<a href="<?php echo $PREFIX; ?>" role="button" class="btn backWhite" >Home</a>
 			<a href="<?php echo $PREFIX; ?>contact/contact.php" role="button" class="btn backWhite animsition-link"
 			>Contact</a>
 			<a href="<?php echo $PREFIX; ?>portfolio/portfolio.php" role="button" class="btn backWhite
