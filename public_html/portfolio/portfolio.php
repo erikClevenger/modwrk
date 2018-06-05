@@ -2,14 +2,21 @@
 /*grab current directory*/
 $CURRENT_DIR = __DIR__;
 /*set page title here*/
-$PAGE_TITLE = "Animsition | Page 2";
+$PAGE_TITLE = "Animsition | Page 3";
 /*inject the entire head tag via php */
 require_once(dirname(__DIR__) . "/php/head-utils.php");
 ?>
 
 <body>
+	<div id="paraBG" class="">
+		<div id="paraImg" class="animated fadeInUp"></div>
+	</div>
 	<?php require_once(dirname(__DIR__) . "/php/navbar.php"); ?>
-	<section class="page " id="portfolio">
+	<div class="animsition" data-animsition-in-class="fade-in-down-sm" data-animsition-out-class="fade-out-left-sm">
+		<div id="paraBG" class="">
+			<div id="paraImg" class="animated fadeInUp"></div>
+		</div>
+		<section class="page " id="portfolio">
 		<div class="container">
 			<div id ="portfolioHeadline" class="row mt-5 justify-content-center">
 				<h2 class="col-12 text-center">Portfolio</h2>
@@ -66,4 +73,5 @@ require_once(dirname(__DIR__) . "/php/head-utils.php");
 
 		</div>
 	</section>
+	</div>
 </body>

@@ -1,79 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+<?php
+/*grab current directory*/
+$CURRENT_DIR = __DIR__;
+/*set page title here*/
+$PAGE_TITLE = "Animsition | Home";
+/*inject the entire head tag via php */
+require_once("php/head-utils.php");
+?>
 
-		<!-- Custom CSS -->
-		<link rel="stylesheet" href="./css/styles.css">
-
-		<!-- Animate CSS -->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-
-		<!-- Bootstrap, Jquery, Popper -->
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-
-		<!-- jQuery Form, Additional Methods, Validate -->
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
-
-		<script src="js/form-validate.js"></script>
-
-
-		<!-- reCAPTCHA -->
-		<script src='https://www.google.com/recaptcha/api.js'></script>
-
-
-
-		<!-- Dragend -->
-		<script src="js/dragend.min.js"></script>
-		<script src="js/scripts.js"></script>
-
-
-		<title>Mod~Wrk</title>
-	</head>
-	<body>
+<body>
 
 
 		<div id="paraBG" class="">
 			<div id="paraImg" class="animated fadeInUp"></div>
 		</div>
-		<div class="container smallHide animated fadeInDown">
-			<ul id="menu" class="nav justify-content-center">
-				<li class="nav-item">
-					<a class="nav-link" href="#" data-page="#contact">Contact</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#" data-page="#home">Home</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#" data-page="#portfolio">Portfolio</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="resume-ErikClevenger.pdf">Resume</a>
-				</li>
-			</ul>
-		</div>
-		<div class="container bigHide fixed-bottom">
-			<div class="collapse " id="btmNavToggle">
-				<div class="d-flex flex-row mb-3 justify-content-around" aria-label="navigation">
-					<a href="#slideContact" role="button" class="btn backWhite" >Contact</a>
-					<a href="#slideHome" role="button" class="btn backWhite" >Home</a>
-					<a href="#slidePortfolio" role="button" class="btn backWhite">Portfolio</a>
-				</div>
-			</div>
-			<nav class="navbar navbar-light justify-content-center">
-				<button class="navbar-toggler backWhite" type="button" data-toggle="collapse" data-target="#btmNavToggle"
-						  aria-controls="btmNavToggle" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-			</nav>
-		</div>
+		<?php require_once("php/navbar.php") ?>
 		<div id="pages">
 			<section class="page " id="home" data-page="home">
 				<div class="container">
@@ -85,7 +26,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="page " id="contact" data-page="contact">
+<!--			<section class="page " id="contact" data-page="contact">
 				<div class="container">
 					<div class="row mt-5 justify-content-center">
 						<h2 class="col-12 align-self-center text-center">Contact</h2>
@@ -112,8 +53,8 @@
 
 					</div>
 				</div>
-			</section>
-			<section class="page " id="portfolio">
+			</section>-->
+<!--			<section class="page " id="portfolio">
 				<div class="container">
 					<div id ="portfolioHeadline" class="row mt-5 justify-content-center">
 						<h2 class="col-12 text-center">Portfolio</h2>
@@ -151,31 +92,12 @@
 								<h4 id="portfolio-2" class=" portfolio-item portfolio">Portfolio Item 2</h4>
 							</div>
 						</div>
-						<div class="modal fade align-self-center" id="ksModal" tabindex="-1" role="dialog"
-							  aria-labelledby="Killerspin"
-							  aria-hidden="true">
-							<div class="modal-dialog" role="document">
-								<div class="modal-content">
-									<div class="modal-header">
-										<h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-											<span aria-hidden="true">&times;</span>
-										</button>
-									</div>
-									<div class="modal-body">
-										...
-									</div>
-									<div class="modal-footer">
-										<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-									</div>
-								</div>
-							</div>
-						</div>
+
 
 					</div>
 
 				</div>
-			</section>
+			</section>-->
 		</div>
 
 </body>
