@@ -41,6 +41,7 @@ try {
 	 * This takes the form of an associative array where $email is the key for the real name.
 	 **/
 	$swiftMessage->setFrom([$email => $name]);
+	var_dump([$email => $name]);
 
 	/**
 	 * Attach the recipients to the message.
@@ -48,9 +49,10 @@ try {
 	 **/
 	$recipients = $MAIL_RECIPIENTS;
 	$swiftMessage->setTo($recipients);
+	var_dump($recipients);
 
 	// attach the subject line to the message
-	//$swiftMessage->setSubject($subject);
+	$swiftMessage->setSubject("Direct Message From Fuzzy");
 
 	/**
 	 * Attach the actual message to the message.

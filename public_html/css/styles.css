@@ -7,6 +7,14 @@
 	padding:0;
 }
 
+html {
+	font-size: 1rem;
+}
+
+body {
+	font-family: "Pragmatica", sans-serif;
+}
+
 @-webkit-keyframes fadeInDown {
 	from {
 		opacity: 0;
@@ -87,39 +95,6 @@
 
 }
 
-#slideHome{
-	background-color: transparent;
-}
-#slideContact {
-	background-color: transparent;
-}
-
-#slidePortfolio {
-	background-color: transparent;
-}
-
-#heroImg{
-
-
-	-webkit-animation-delay: .7s;
-	-moz-animation-delay: .7s;
-}
-
-#modwrkbanner {
-	position: absolute;
-	margin-top: 7rem;
-}
-
-
-.backWhite{
-	background-color: rgba(255,255,255, .7);
-}
-
-.homeSection {
-	height: 50vh;
-	background-color: transparent;
-}
-
 .smallHide {
 	background-color: transparent;
 	margin-top: 2rem;
@@ -146,5 +121,90 @@
 	height: 70vh;
 	overflow: auto;
 }
+
+
+/* ---- Home Page ----*/
+
+#slideHome{
+	background-color: transparent;
+}
+
+@media (min-width: 576px) {
+	.blackText {
+		font-size: 1.2em;
+		font-weight: bolder;
+	}
+}
+
+@media (min-width: 768px) {
+	.blackText {
+		font-size: 1.4em;
+	}
+}
+
+@media (min-width: 992px) {
+	.blackText {
+		font-size: 2em;
+	}
+}
+
+/* ---- Contact Page----*/
+
+#slideContact {
+	background-color: transparent;
+}
+
+
+
+/*---- Portfolio Page----*/
+#slidePortfolio {
+	background-color: transparent;
+}
+
+
+
+@media (min-width: 576px) {
+	.portfolioItem {
+
+	}
+}
+
+@media (min-width: 768px) {
+	.portfolioItem {
+	}
+}
+
+@media (min-width: 992px) {
+	.portfolioItem {
+		height: 40vh;
+	}
+}
+
+
+
+#heroImg{
+	width:60vw;
+	height:auto;
+
+	-webkit-animation-delay: .7s;
+	-moz-animation-delay: .7s;
+}
+
+#modwrkbanner {
+	position: absolute;
+	margin-top: 7rem;
+}
+
+
+.backWhite{
+	background-color: rgba(255,255,255, .7);
+}
+
+.homeSection {
+	height: 50vh;
+	background-color: transparent;
+}
+
+
 
 

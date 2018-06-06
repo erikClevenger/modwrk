@@ -41,11 +41,14 @@ $PREFIX = str_repeat("../", $DEPTH_DIFFERENCE);
 		<!-- reCAPTCHA -->
 		<script src='https://www.google.com/recaptcha/api.js'></script>
 
+		<link rel="stylesheet" href="https://use.typekit.net/wnk4zhh.css">
 
+		<!-- fancybox -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
 
-		<!-- Dragend -->
-		<script src="js/dragend.min.js"></script>
-		<script src="js/scripts.js"></script>
+		<!-- Custom JS -->
+		<script src="<?php echo $PREFIX; ?>js/scripts.js"></script>
 
 
 		<title>Mod~Wrk</title>
