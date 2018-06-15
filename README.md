@@ -52,3 +52,34 @@ Your Milestone 2a passes at [Tier IV](https://bootcamp-coders.cnm.edu/projects/p
 
 ### Milestone 2b Feedback
 Really nice work - looking forward to seeing this come together. Milestone 2b passes at [Tier IV](https://bootcamp-coders.cnm.edu/projects/personal/rubric/)
+
+### PWP Final Feedback
+You had some ambitious plans for this project, and unfortunately our time constraints were probably the biggest roadblock to their implementation. You are beyond ready to dive into much more challenging front-end material than what we explored in class, and I'm looking forward to seeing what you create in the future! What you've created here is simple and attractive. I know that you wanted to push it much further, but alas - time constraints!
+
+*Code Base*: Your code quality looks great. Going through your repo - I see you've used some custom jQuery to toggle/fade in the page views in lieu of calling the `.animsition()` function from the plugin. I'm curious as to what challenges you were facing here... and if the plugin wasn't working for you out-of-the-box. Nice work wrestling with jQuery - this doesn't look like it was very fun or straightforward haha.
+
+Your CSS looks great - nice. Sass should surely be in your future.
+
+It looks like there may be an issue with your TypeKit loading... I'm getting a 404 on that file. See the console. The Resume isn't loading - it doesn't appear uploaded to the server?
+
+One suggestion I have for the future is to name your files in a way that the php filename does not resolve in the URL... name each file as `index.php` in their subdirectory, and your URLs will be cleaner. Nice work with the php templating process.
+
+Curious... I don't see your `.htaccess` file on GitHub, but your SSL should work fine at your subdomain (I tested it as https, and it loaded fine). The secure connection should be forced in the .htaccess file - but it might need a minor adjustment for the subdomain.
+
+*Git Commits*: Nice work with VCS - your Git/GitHub history is good.
+
+*Mobile-First Responsiveness*: I've tested your page using devtools, Chrome & Firefox on Linux and Android. Your layout responds well across these platforms. For some reason the gallery is working better on mobile than on Desktop for me however (Tested Chrome and Firefox on Ubuntu). There's some issues with the images scaling incorrectly  in the desktop browsers... but they look fine on mobile. First time I've seen this - but hopefully not a tough fix. I might opt to get rid of the horizontal scroll on the gallery section too.
+
+*Design, Content, &amp; Overall Presentation*: Again, nice work on an attractive concept. There is certainly room to polish this and take it to the next level - but you know that! You're doing great work - keep challenging yourself :D
+
+*Contact Form*: Appears to work fine on my end. Did you get my test message?
+
+Nice work - your PWP passes at [Tier IV](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). Your cumulative PWP score including all Milestones is 38/40 points (95%).
+
+- Milestone 1 - 20%: Tier III 30(0.2) = 6
+- Milestone 2a - 20%: Tier IV 40(0.2) = 8
+- Milestone 2b - 10%: Tier IV 40(0.1) = 4
+- Milestone 3 - 50%: Tier IV 40(0.5) = 20
+
+#### Suggestions
+- We didn't discuss favicons, but you might want to consider adding one. Have a look at this tool which helps render multiple versions for cross-platform  support: https://realfavicongenerator.net/
