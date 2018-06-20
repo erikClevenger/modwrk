@@ -96,18 +96,17 @@ body {
 }
 
 .smallHide {
-	background-color: transparent;
 	margin-top: 2rem;
 	z-index:1;
 }
 
-@media screen and (max-width: 993px) {
+@media screen and (max-width: 666px) {
 	.smallHide {
 		display: none;
 	}
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 665px) {
 	.bigHide {
 		display: none;
 	}
@@ -161,22 +160,54 @@ body {
 	background-color: transparent;
 }
 
+#ks-hide {
+	display: none;
+}
+
+.featureImg {
+	width: 80vw;
+	height: auto;
+	margin: auto;
+}
 
 
 @media (min-width: 576px) {
+	.featureImg {
+		width: 80vw;
+		height: auto;
+		margin: auto;
+	}
 	.portfolioItem {
+		height: auto;
+		width: 80vw;
+	}
 
+	.ks-gallery {
+		height: auto;
+		width: 80vw;
 	}
 }
 
 @media (min-width: 768px) {
-	.portfolioItem {
+	.featureImg {
+		height: 30vh;
+		width: auto;
+		margin: auto;
+	}
+	.ks-gallery {
+		height: 65vh;
+		width: auto;
 	}
 }
 
 @media (min-width: 992px) {
-	.portfolioItem {
-		height: 40vh;
+	.featureImg {
+		height: 45vh;
+		margin: 2vh auto;
+	}
+	.ks-gallery {
+		height: 65vh;
+		width: auto;
 	}
 }
 
