@@ -26,24 +26,29 @@ require_once(dirname(__DIR__) . "/php/head-utils.php");
 				image">
 				</a>
 				<div class="hide">
-					<img class="ks-gallery" data-fancybox="ks-gallery" src="../imgs/ks/sl_Achieve.jpg" alt="Killerspin
-					achievements
-					mock up">
-					<img class="ks-gallery" data-fancybox="ks-gallery" src="../imgs/ks/sl_Challenge.jpg"
+					<img class="ks-gallery portfolioItem" data-fancybox="ks-gallery" src="../imgs/ks/sl_Achieve.jpg"
 						  alt="Killerspin
-					challenge flow
-					mock up">
-					<img class="ks-gallery" data-fancybox="ks-gallery" src="../imgs/ks/sl_Friends.jpg"
-						  alt="Killerspin friends view">
-					<img class="ks-gallery" data-fancybox="ks-gallery" src="../imgs/ks/sl_Home.jpg" alt="Killerspin
+					achievements mock up">
+					<img class="ks-gallery portfolioItem" data-fancybox="ks-gallery" src="../imgs/ks/sl_Challenge.jpg"
+						  alt="Killerspin
+					challenge flow mock up">
+					<img class="ks-gallery portfolioItem" data-fancybox="ks-gallery" src="../imgs/ks/sl_Friends.jpg"
+						  alt="Killerspin
 					friends view">
-					<img class="ks-gallery" data-fancybox="ks-gallery" src="../imgs/ks/sl_Paddles.jpg" alt="Killerspin
+					<img class="ks-gallery portfolioItem" data-fancybox="ks-gallery" src="../imgs/ks/sl_Home.jpg" alt="Killerspin
+					friends view">
+					<img class="ks-gallery portfolioItem" data-fancybox="ks-gallery" src="../imgs/ks/sl_Paddles.jpg"
+						  alt="Killerspin
 					equipment picker">
-					<img class="ks-gallery" data-fancybox="ks-gallery" src="../imgs/ks/sl_Settings.jpg" alt="Killerspin
+					<img class="ks-gallery portfolioItem" data-fancybox="ks-gallery" src="../imgs/ks/sl_Settings.jpg"
+						  alt="Killerspin
 					settings pane">
-					<img class="ks-gallery" data-fancybox="ks-gallery" src="../imgs/ks/sl_Tables.jpg" alt="Killerspin tables
+					<img class="ks-gallery portfolioItem" data-fancybox="ks-gallery" src="../imgs/ks/sl_Tables.jpg"
+						  alt="Killerspin
+					tables
 					picker">
-					<img class="ks-gallery" data-fancybox="ks-gallery" src="../imgs/ks/sl_View.jpg" alt="Killerspin view
+					<img class="ks-gallery portfolioItem" data-fancybox="ks-gallery" src="../imgs/ks/sl_View.jpg" alt="Killerspin
+					view
 					profile flow">
 				</div>
 				<a href="#" data-trigger="dm-gallery" id="demarcated" class="portfolioItem row"><img class="featureImg" src="../imgs/dm/book_out_tsp.png"></a>
